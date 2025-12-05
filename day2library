@@ -1,0 +1,9 @@
+SELECT * FROM `library`;
+
+SELECT * FROM `library` WHERE price>400;
+
+SELECT * FROM `library` WHERE genre='history' OR genre='science' OR genre='fiction';
+
+SELECT * FROM `library` WHERE title='The Great Gatsb';
+
+SELECT * FROM `library` WHERE NOT author='Dan Brown';
