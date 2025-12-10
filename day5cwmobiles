@@ -1,0 +1,15 @@
+SELECT * FROM `mobiles` WHERE price>13000 OR stock>15;
+
+UPDATE mobiles
+SET stock=stock+5,price=12500
+WHERE model='narzo 50';
+
+DELETE FROM mobiles WHERE id=2;
+
+SELECT MIN(price) FROM mobiles;
+
+SELECT MAX(price) FROM mobiles;
+
+SELECT SUM(stock) FROM mobiles;
+
+SELECT * FROM `mobiles` ORDER by price DESC LIMIT 2;
