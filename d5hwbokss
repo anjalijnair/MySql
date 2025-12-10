@@ -1,0 +1,13 @@
+SELECT * FROM `bookss`;
+
+SELECT * FROM `bookss` WHERE price<450 AND stock>30;
+
+UPDATE bookss
+SET stock=45,price=420
+WHERE title='Deep Work';
+
+DELETE FROM bookss WHERE title='lkigai';
+
+SELECT AVG(price),COUNT(*) FROM bookss;
+
+SELECT * FROM bookss ORDER BY price DESC LIMIT 3;
