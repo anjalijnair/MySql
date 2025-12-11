@@ -1,0 +1,10 @@
+SELECT title,author FROM booksss UNION SELECT title,author FROM bestsellers
+
+
+SELECT * FROM booksss WHERE price>400;
+
+SELECT AVG(price) FROM booksss;
+
+SELECT COUNT(*) FROM `booksss`;
+
+SELECT title AS 'Book Title',author AS 'Written By' FROM booksss;
