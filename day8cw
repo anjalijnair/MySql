@@ -1,0 +1,7 @@
+ALTER TABLE proucts
+ADD category varchar(15);
+
+DELETE FROM products;
+
+DROP DATABASE groceryshop;
+
